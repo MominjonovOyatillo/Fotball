@@ -45,3 +45,8 @@ class ShopSerializer(ModelSerializer):
     class Meta:
         model = Shop
         fields = "__all__"
+        
+class TeamSerializer(ModelSerializer):
+    class Meta:
+        model = Shop
+        fields = "__all__"
